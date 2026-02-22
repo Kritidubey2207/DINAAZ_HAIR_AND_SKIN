@@ -1,0 +1,109 @@
+.services-section {
+  background: #b9ced1;
+  padding: 80px 20px;
+}
+
+.services-container {
+  max-width: 1150px;
+  margin: auto;
+}
+
+.services-tag {
+  color: #1f9ca3;
+  font-size: 12px;
+  letter-spacing: 2px;
+}
+
+.services-title {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+}
+
+/* -------- Card Base -------- */
+
+.service-card {
+  position: relative;
+  border-radius: 14px;
+  padding: 24px;
+  height: 260px;
+  overflow: hidden;
+  background: white;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+  transition: 0.3s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-6px);
+}
+
+/* Paper curve effect */
+.service-card::before {
+  content: "";
+  position: absolute;
+  top: -40px;
+  right: -40px;
+  width: 200px;
+  height: 200px;
+  background: rgba(255,255,255,0.4);
+  border-radius: 50%;
+}
+
+/* Variants (color difference like screenshot) */
+
+.service-card.hair {
+  background: linear-gradient(135deg, #f4efe9, #e6e0d7);
+}
+
+.service-card.skin {
+  background: linear-gradient(135deg, #e5f0f0, #f1e9df);
+}
+
+.service-card.derma {
+  background: linear-gradient(135deg, #f2f2f2, #e8e8e8);
+}
+
+/* Content */
+
+.card-content h3 {
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.service-icon {
+  width: 32px;
+}
+
+.card-content ul {
+  margin-top: 10px;
+  padding-left: 16px;
+  font-size: 13px;
+  color: #555;
+}
+
+/* Bottom Arrow */
+
+.card-arrow {
+  position: absolute;
+  bottom: 16px;
+  right: 16px;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  border: 1px solid #444;
+  background: transparent;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.card-arrow:hover {
+  background: #1f9ca3;
+  color: white;
+  border-color: #1f9ca3;
+}

@@ -1,0 +1,126 @@
+.consult-section {
+  background: #f5f7f8;
+  padding: 80px 20px;
+  overflow: hidden;
+}
+
+.consult-container {
+  max-width: 1150px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+/* Left */
+
+.consult-left {
+  position: relative;
+  width: 260px;
+}
+
+.ellipse-left {
+  width: 260px;
+}
+
+.consult-image {
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  top: 70px;
+  left: 70px;
+}
+
+/* Center */
+
+.consult-center {
+  max-width: 420px;
+  text-align: center;
+}
+
+.consult-tag {
+  color: #1f9ca3;
+  font-size: 12px;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+}
+
+.consult-title {
+  font-size: 38px;
+  font-weight: 700;
+  margin-bottom: 14px;
+}
+
+.consult-subtext {
+  font-size: 13px;
+  color: #666;
+  margin-bottom: 25px;
+  line-height: 1.6;
+}
+
+/* Form */
+
+.consult-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.consult-form input {
+  padding: 12px;
+  border-radius: 6px;
+  border: none;
+  background: #eef3f4;
+  font-size: 14px;
+}
+
+/* Button */
+
+.consult-btn {
+  margin-top: 10px;
+  background: #f5a623;
+  color: white;
+  border: none;
+  padding: 14px;
+  border-radius: 28px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.consult-btn:hover {
+  background: #e69500;
+  transform: translateY(-2px);
+}
+
+/* Right */
+
+.consult-right {
+  position: relative;
+  width: 260px;
+  text-align: center;
+}
+
+.ellipse-right {
+  width: 260px;
+}
+
+.consult-note {
+  position: absolute;
+  top: 70px;
+  left: 0;
+  right: 0;
+  font-size: 16px;
+  font-weight: 600;
+  color: #444;
+}
+
+.consult-note span {
+  color: #f5a623;
+  font-weight: 700;
+}

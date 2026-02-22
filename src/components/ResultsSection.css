@@ -1,0 +1,79 @@
+.results-section {
+  padding: 80px 20px;
+  background: #f7f9fb;
+  text-align: center;
+}
+
+.container {
+  max-width: 1100px;
+  margin: auto;
+}
+
+.section-tag {
+  color: #00a6a6;
+  letter-spacing: 2px;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+.section-title {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+
+.results-wrapper {
+  position: relative;
+}
+
+.results-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+}
+
+.result-card {
+  background: white;
+  padding: 8px;
+  border-radius: 8px;
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.08);
+  transform: rotate(-2deg);
+  transition: 0.3s;
+}
+
+.result-card:nth-child(even) {
+  transform: rotate(2deg);
+}
+
+.result-card:hover {
+  transform: scale(1.03);
+}
+
+.result-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+/* Circle Badge */
+.circle-badge {
+  position: absolute;
+  right: -20px;
+  top: 40%;
+  width: 120px;
+  height: 120px;
+}
+
+.circle-badge img {
+  width: 100%;
+}
+
+.circle-badge span {
+  position: absolute;
+  top: 35%;
+  left: 15%;
+  font-size: 12px;
+  color: #333;
+  text-align: center;
+}
